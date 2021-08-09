@@ -7,8 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node-sass scss/main.scss -o css/",
     "watch": "npm run build && node-sass scss/main.scss -o css/ --watch",
+    "serve": "live-server --host=localhost",
     "dev": "run-p watch serve",
-    "start": "npm run dev",
+    "start": "npm run dev --port 8000",
     "format:js": "prettier --write",
     "lint:js:fix": "eslint --fix"
   },
