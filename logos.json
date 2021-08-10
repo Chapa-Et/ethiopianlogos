@@ -8,5 +8,17 @@
 			"Banking",
 			"Financial Services"
 		]
+	},
+	{
+		"title": "Ethio Telecom",
+		"filename": "ethio_telecom",
+		"url": "https://www.ethiotelecom.et/",
+		"category": ["Banking", "Financial Services"]
+	},
+	{
+		"title": "Zemen Bank",
+		"filename": "zemen_bank",
+		"url": "https://www.zemenbank.com/",
+		"category": ["Banking", "Financial Services"]
 	}
 ]
