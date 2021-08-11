@@ -1,10 +1,10 @@
-# EthiopiaLogos
+# EthiopianLogos
 
 This is an open source project for downloading free, high quality vector logos of Ethiopian companies. Visit the website at [ethiopianlogos.com](https://ethiopianlogos.com).
 
 ## Getting Started
 
-EthiopiaLogos is a simple web app built with HTML and plain Javascript. Styles are written in SCSS and compiled locally. Follow the instructions below to set up the project on your local machine for development and testing purposes. 
+EthiopianLogos is a simple web app built with HTML and plain Javascript. Styles are written in SCSS and compiled locally. Follow the instructions below to set up the project on your local machine for development and testing purposes. 
 
 ### Prerequisites
 [Node.js](https://nodejs.org/)
@@ -26,7 +26,7 @@ EthiopiaLogos is a simple web app built with HTML and plain Javascript. Styles a
 
 ## Contributing
 
-To learn more about contributing to EthiopiaLogos, please read [contributing.md](https://github.com/Chapa-Et/ethiopianlogos/blob/master/contributing.md)
+To learn more about contributing to EthiopianLogos, please read [contributing.md](https://github.com/Chapa-Et/ethiopianlogos/blob/master/contributing.md)
 
 
 ## Credits
