@@ -1,5 +1,46 @@
 [
-
+	
+	{
+		"title": "Addis Ababa University",
+		"filename": "addis_ababa_university",
+		"url": "http://www.aau.edu.et/",
+		"category": [
+			"Education"
+		]
+	},
+	{
+		"title": "African Union",
+		"filename": "african_union",
+		"url": "https://au.int/",
+		"category": [
+			"IGO"
+		]
+	},
+	{
+		"title": "Awash International Bank",
+		"filename": "awash_international_bank",
+		"url": "https://www.awashbank.com/",
+		"category": [
+			"Banking",
+			"Financial Services"
+		]
+	},
+	{
+		"title": "Ayat real Estate",
+		"filename": "ayat_real_estate",
+		"url": "https://ayatrealestate.com/en/home/",
+		"category": [
+			"Real Estate"
+		]
+	},
+	{
+		"title": "blueMoon",
+		"filename": "blueMoon",
+		"url": "https://www.bluemoonethiopia.com/",
+		"category": [
+			"Incubators"
+		]
+	},
 	{
 		"title": "Chapa",
 		"filename": "chapa",
@@ -10,10 +51,182 @@
 		]
 	},
 	{
+		"title": "Commercial Bank of Ethiopia",
+		"filename": "commercial_bank_of_ethiopia",
+		"url": "http://combanketh.et/",
+		"category": [
+			"Banking",
+			"Financial Services"
+		]
+	},
+	{
+		"title": "Cooperative Bank of Oromia",
+		"filename": "cooperative_bank_of_oromia",
+		"url": "https://coopbankoromia.com.et/",
+		"category": [
+			"Banking",
+			"Financial Services"
+		]
+	},
+	{
+		"title": "Dangote",
+		"filename": "dangote",
+		"url": "https://www.dangotecement.com/ethiopia/",
+		"category": [
+			"Manufacturer",
+			"Distribution"
+		]
+	},
+	{
 		"title": "Ethio Telecom",
 		"filename": "ethio_telecom",
 		"url": "https://www.ethiotelecom.et/",
+		"category": ["Telecommunincation"]
+	},
+	{
+		"title": "Ethiopian Agricultural Transformation Agency",
+		"filename": "ethiopian_agricultural_transformation_agency",
+		"url": "https://www.ata.gov.et/",
+		"category": ["Agriculture"]
+	},
+	{
+		"title": "Ethiopian Sugar Corporation",
+		"filename": "ethiopian_sugar_corporation",
+		"url": "https://etsugar.com/",
+		"category": ["Agritech"]
+	},
+	{
+		"title": "Flintstone Homes",
+		"filename": "flintstone_homes",
+		"url": "https://www.flintstonehomes.com/",
+		"category": ["Real Estate"]
+	},
+	{
+		"title": "Gift Real Estate",
+		"filename": "gift_real_estate",
+		"url": "http://www.giftrealestate.com.et/",
+		"category": ["Real Estate"]
+	},
+	{
+		"title": "Hilton",
+		"filename": "hilton",
+		"url": "https://www.hilton.com/en/hotels/addhitw-hilton-addis-ababa/",
+		"category": ["Hotels"]
+	},
+	{
+		"title": "Hyatt Regency",
+		"filename": "hyatt_regency",
+		"url": "https://www.hyatt.com/en-US/hotel/ethiopia/hyatt-regency-addis-ababa/addra",
+		"category": ["Real Estate"]
+	},
+	{
+		"title": "Innohub",
+		"filename": "innohub",
+		"url": "https://innohubgroup.com/",
+		"category": ["ICT", "Software"]
+	},
+	{
+		"title": "Legacy Real estate",
+		"filename": "legacy_real_estate",
+		"url": "https://legacyethiopia.com",
+		"category": [
+			"Real Estate"
+		]
+	},
+	{
+		"title": "Marriott International",
+		"filename": "marriott",
+		"url": "https://www.marriott.com/default.mi",
+		"category": [
+			"Hotels"
+		]
+	},
+	{
+		"title": "Moenco",
+		"filename": "moenco",
+		"url": "https://moencoethiopia.com/",
+		"category": [
+			"Automotive Distributor",
+			"Retailer"
+		]
+	},
+	{
+		"title": "National Bank of Ethiopa",
+		"filename": "national_bank_of_ethiopia",
+		"url": "https://nbebank.com/",
 		"category": ["Banking", "Financial Services"]
+	},
+	{
+		"title": "National Oil Ethiopa",
+		"filename": "national_oil_ethiopia",
+		"url": "https://www.nocethiopia.com/",
+		"category": ["Petroleum and Gas"]
+	},
+	{
+		"title": "Nyala Motors",
+		"filename": "nyala_motors",
+		"url": "https://www.nyalamotors.com/en/",
+		"category": ["Petroleum and Gas"]
+	},
+	{
+		"title": "Oromia International Bank",
+		"filename": "oromia_international_bank",
+		"url": "https://orointbank.net/en/",
+		"category": ["Banking", "Financial Services"]
+	},
+	{
+		"title": "Tomoca",
+		"filename": "tomoca",
+		"url": "https://www.tomocacoffee.com/",
+		"category": ["Cafe"]
+	},
+	{
+		"title": "Tsehay Real Estate",
+		"filename": "tsehay_real_estate",
+		"url": "https://tsehayrealities.com/",
+		"category": ["Real Estate"]
+	},
+	{
+		"title": "Ramada",
+		"filename": "ramada",
+		"url": "https://www.ramadaaddis.com/",
+		"category": ["Hotel"]
+	},
+	{
+		"title": "SAP",
+		"filename": "sap",
+		"url": "https://www.sap.com/index.html",
+		"category": ["Software"]
+	},
+	{
+		"title": "Save the Children International",
+		"filename": "save_the_children",
+		"url": "https://www.sunshineinvestmentgroup.net/",
+		"category": ["Investment group"]
+	},
+	{
+		"title": "Sunshine",
+		"filename": "sunshine",
+		"url": "https://www.savethechildren.net/",
+		"category": ["NGO"]
+	},
+	{
+		"title": "United Nations Economic Commision for Africa",
+		"filename": "uneca",
+		"url": "https://www.uneca.org/",
+		"category": ["IGO"]
+	},
+	{
+		"title": "Washington Medical Center",
+		"filename": "washington_medical_center",
+		"url": "https://www.wmcethiopia.com/",
+		"category": ["Health"]
+	},
+	{
+		"title": "Yotek Real Estate ",
+		"filename": "yotek_real_estate",
+		"url": "http://www.yotekcon.com",
+		"category": ["Real Estate"]
 	},
 	{
 		"title": "Zemen Bank",
