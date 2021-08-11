@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install",
+    "build": "node-sass scss/main.scss -o css/",
     "watch": "npm run build && node-sass scss/main.scss -o css/ --watch",
     "serve": "live-server --host=localhost",
     "dev": "run-p watch serve",
