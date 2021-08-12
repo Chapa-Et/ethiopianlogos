@@ -34,6 +34,15 @@
 		]
 	},
 	{
+		"title": "Bank of Abyssinia",
+		"filename": "bank_of_abyssinia",
+		"url": "https://www.bankofabyssinia.com/",
+		"category": [
+			"Banking",
+			"Financial Services"
+		]
+	},
+	{
 		"title": "blueMoon",
 		"filename": "blueMoon",
 		"url": "https://www.bluemoonethiopia.com/",
@@ -175,6 +184,12 @@
 		"category": ["Banking", "Financial Services"]
 	},
 	{
+		"title": "Qinash",
+		"filename": "qinash",
+		"url": "https://qinash.com/",
+		"category": ["Ecommerce"]
+	},
+	{
 		"title": "Tomoca",
 		"filename": "tomoca",
 		"url": "https://www.tomocacoffee.com/",
@@ -191,6 +206,13 @@
 		"filename": "ramada",
 		"url": "https://www.ramadaaddis.com/",
 		"category": ["Hotel"]
+	},
+	
+	{
+		"title": "Ride",
+		"filename": "ride",
+		"url": "https://ride8294.com/",
+		"category": ["Booking"]
 	},
 	{
 		"title": "SAP",
