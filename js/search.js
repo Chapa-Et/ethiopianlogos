@@ -40,6 +40,7 @@ function searchState() {
 	const alphabetRow = document.querySelector('.companies-alphabet');
 	const subcopy = document.querySelector('.subcopy');
 	const contributeButton = document.querySelector('.contribute');
+	const uploadButton = document.querySelector('.upload-form');
 	const searchResultDisplay = document.querySelector('.result');
 	const mediaQuery = window.matchMedia('(max-width: 880px)');
 	searchbars.forEach(searchbar => {
@@ -49,11 +50,13 @@ function searchState() {
 			searchResultDisplay.style.opacity = '1';
 			mediaQuery.matches ? (searchResultDisplay.style.transform = 'translateY(-18px)') : (searchResultDisplay.style.transform = 'translateY(-45px)');
 			contributeButton.style.transform = 'translateY(-4vh)';
+			uploadButton.style.transform = 'translateY(-8vh)';
 		} else {
 			alphabetRow.style.display = 'flex';
 			subcopy.style.display = 'block';
 			searchResultDisplay.style.opacity = '0';
 			contributeButton.style.transform = 'translateY(0)';
+			uploadButton.style.transform = 'translateY(0)';
 		}
 	});
 }
