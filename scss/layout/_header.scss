@@ -1,7 +1,10 @@
 header {
-    width: 75vw;
-    margin: 3% auto;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
     overflow-x: hidden;
+    background-color: #63d471;
+    background-image: linear-gradient(315deg, #44e957 0%, #a5c0b0 84%);
 
     .heading {
         width: 76.2vw;
@@ -11,15 +14,15 @@ header {
         position: relative;
 
         & .site-logo {
-            width: 5vh;
+            width: 10vh;
             position: absolute;
-            top: 0;
+            top: 5%;
             left: 0;
 
             & img {
                 width: 100%;
-                min-width: 50px;
-                min-height: 50px;
+                min-width: 100px;
+                min-height: 100px;
             }
         }
     }
@@ -100,9 +103,11 @@ header {
     }
     h1 {
         min-width: 500px;
+        font: normal 300 50px/1 'Josefin Sans', sans-serif;
         position: absolute;
         left: 0;
-        top: 10vh;
+        top: 35vh;
+        color: $col-white;
 
         & a {
             color: inherit;
@@ -113,6 +118,73 @@ header {
             }
         }
     }
+    .label {
+        float: left;
+        color: #FFF;
+      }
+      
+      /* Ripple magic */
+      
+      .ripple {
+        position: relative;
+        overflow: hidden;
+      
+        &:after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 0;
+          width: 5px;
+          height: 5px;
+          background: rgba(140, 255, 8, 0.795);
+          opacity: 0;
+          border-radius: 100%;
+          transform: scale(1, 1) translate(-50%);
+          transform-origin: 50% 50%;
+        }
+      
+        &::after {
+          animation: ripple 3.5s ease-out  infinite;
+        }
+      }
+      
+      @keyframes ripple {
+        0% {
+          transform: scale(0, 0);
+          opacity: 1;
+        }
+      
+        20% {
+          transform: scale(55, 45);
+          opacity: 1;
+        }
+      
+        100% {
+          opacity: 0;
+          transform: scale(180, 160);
+        }
+      }
+      
+      /* Borderr Highlight Effect */
+      
+      /* Chrome, Safari, Opera */
+      @-webkit-keyframes drawBorderFromCenter {
+        0% {
+          background-size: 0 2px, 0 0, 100% 100%;
+        }
+      
+        20% {
+          background-size: 100% 2px, 100% 0, 100% 100%;
+        }
+      
+        66% {
+          background-size: 100% 2px, 100% 98%, 100% 100%;
+        }
+      
+        99% {
+          background-size: 100% 2px, 100% 98%, 0 2px;
+        }
+      }
     .visuallyhidden{
         position: absolute;
         clip: rect(1px, 1px, 1px, 1px);
@@ -122,16 +194,23 @@ header {
         width: 1px;
         overflow: hidden;
     }
+    .contribution{
+        position: relative;
+        top: 15%;
+    }
     .subcopy {
+        font: normal 300 20px/1 'Josefin Sans', sans-serif;
         position: absolute;
-        // top: 22vh;
+        top: 53vh;
+        height: auto;
         bottom: 0;
         margin-bottom: 80px;
+        color: $col-white;
     }
     .contribute {
         position: absolute;
         cursor: pointer;
-        bottom: 0;
+        top: 57vh;
         margin-bottom: 15px;
         background-color: $col-green-1;
         color: $col-white;
@@ -144,7 +223,7 @@ header {
     }
     .white-bg {
         width: 100%;
-        height: 10%;
+        height: 12%;
         background-color: $col-white;
         position: fixed;
         top: 0;
@@ -218,12 +297,251 @@ header {
         }
     }
     .contribute-mobile {
-        color: $col-grey-1;
+        color: $col-grey-4;
         text-decoration-color: $col-green-1;
         position: absolute;
         top: 4.5%;
-        right: 8%;
+        right: 6%;
         font-size: 150%;
         display: none;
     }
+
+$strokeWidth: 4px;
+$strokeColor: white;
+
+$timing: 2.6s;
+// $easing: ease-in-out;
+$easing: cubic-bezier(0.77, 0, 0.175, 1);
+
+
+
+
+
+.scroll-down-dude:before,
+.scroll-down-dude:after {
+    position: relative;
+    top: 10vh;
+	content: '';
+	display: block;
+    cursor: pointer;
+    margin: 0 auto;
+	width: 40px;
+	height: 40px;
+	transform: rotate(45deg);
+	border-bottom: $strokeWidth solid $strokeColor;
+	border-right: $strokeWidth solid $strokeColor;
+    justify-content: center;
 }
+
+.scroll-down-dude:before {
+	animation: down-arrow-before $timing $easing infinite;
+}
+
+.scroll-down-dude:after {
+	animation: down-arrow-after $timing $easing infinite;
+}
+
+@keyframes down-arrow-before {
+	50% {
+		transform: rotate(45deg) translate(70%, 70%);
+	}
+	100% {
+		transform: rotate(45deg) translate(70%, 70%);
+	}
+}
+
+@keyframes down-arrow-after {
+	50% {
+		transform: rotate(45deg) translate(110%, 110%);
+		opacity: 0;
+	}
+	51% {
+		transform: rotate(45deg) translate(-130%, -130%);
+	}
+	100% {
+		transform: rotate(45deg) translate(-70%, -70%);
+		opacity: 1;
+	}
+}
+}
+
+
+@media screen and (max-width: 768px){
+    header {
+    
+        .heading {
+            width: 90.2vw;
+            height: 33vh;
+            min-height: 310px;
+            margin: 0 auto;
+            position: relative;
+    
+            & .site-logo {
+    
+                & img {
+                    width: 100%;
+                    min-width: 50px;
+                    min-height: 50px;
+                    margin-left: 35%;
+                }
+            }
+        }
+        h1 {
+            min-width: 700px;
+            font: normal 300 33px/1 'Josefin Sans', sans-serif !important;
+            position: absolute;
+            margin-top: 25vh;
+            margin-left: 24px;
+            text-align: left !important;
+        }
+        .subcopy {
+            font: normal 300 22px/1 'Josefin Sans', sans-serif;
+            top: 63vh;
+            margin-top: 30vh;
+        }
+        
+$strokeWidth: 4px;
+$strokeColor: white;
+
+$timing: 2.6s;
+// $easing: ease-in-out;
+$easing: cubic-bezier(0.77, 0, 0.175, 1);
+
+
+.scroll-down-dude:before,
+.scroll-down-dude:after {
+    position: relative;
+    top: 10vh;
+	content: '';
+	display: block;
+    cursor: pointer;
+    margin: 0 auto;
+	width: 20px;
+	height: 20px;
+	transform: rotate(45deg);
+	border-bottom: $strokeWidth solid $strokeColor;
+	border-right: $strokeWidth solid $strokeColor;
+    justify-content: center;
+}
+
+
+    }
+
+}
+
+@media screen and (max-width: 540px){
+    header {
+    
+        h1 {
+            min-width: 700px;
+            font: normal 300 24px/1 'Josefin Sans', sans-serif !important;
+            margin-left: 18vh;
+        }
+
+
+    }
+
+}
+
+
+@media screen and (max-width: 414px){
+    header {
+        h1 {
+            min-width: 300px;
+            font: normal 300 23px/1 'Josefin Sans', sans-serif !important;
+            position: absolute;
+            margin-top: 25vh;
+            margin-left: 4px;
+            text-align: left !important;
+        }
+        .subcopy {
+            font: normal 300 16px/1 'Josefin Sans', sans-serif;
+            top: 63vh;
+            margin-top: 30vh;
+        }
+
+
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    header {
+    
+        h1 {
+            min-width: 260px;
+            position: absolute;
+            margin-top: 20vh;
+            text-align: left !important;
+        }
+        .subcopy {
+            font: normal 300 15px/1 'Josefin Sans', sans-serif;
+            top: 63vh;
+            margin-top: 30vh;
+        }
+
+    }
+
+}
+
+
+@media screen and (max-width: 320px){
+    header {
+    
+        h1 {
+            min-width: 260px;
+            font: normal 300 16px/1 'Josefin Sans', sans-serif !important;
+            position: absolute;
+            margin-top: 25vh;
+            margin-left: 10px;
+            text-align: left !important;
+        }
+        .subcopy {
+            font: normal 300 10px/1 'Josefin Sans', sans-serif;
+            top: 66vh;
+            margin-top: 30vh;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 280px){
+    header {
+    
+        .heading {
+            width: 76.2vw;
+            height: 33vh;
+            min-height: 300px;
+            margin: 0 auto;
+            position: relative;
+    
+            & .site-logo {
+    
+                & img {
+                    width: 100%;
+                    min-width: 50px;
+                    min-height: 50px;
+                    margin-left: 15%;
+                }
+            }
+        }
+        h1 {
+            min-width: 260px;
+            position: absolute;
+            margin-top: 30vh;
+            margin-left: 10px;
+            text-align: left !important;
+        }
+        .subcopy {
+            font: normal 300 10px/1 'Josefin Sans', sans-serif;
+            top: 63vh;
+            margin-top: 30vh;
+        }
+
+    }
+
+}
+
+
+

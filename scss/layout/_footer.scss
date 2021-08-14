@@ -5,6 +5,10 @@ footer {
     right: 5%;
     padding: 1% 2%;
 }
+#backToTop {
+    visibility:hidden;
+    position:fixed;
+}
 .to-top {
     &__bg {
         box-sizing: border-box;

@@ -8,11 +8,12 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    height: 100%;
 }
 body {
     box-sizing: inherit;
     overflow-x: hidden;
-    width: 100vw;
+   height: 100%;
     font-kerning: normal;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
