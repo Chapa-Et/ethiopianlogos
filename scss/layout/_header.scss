@@ -104,7 +104,7 @@ header {
     }
     h1 {
         min-width: 500px;
-        font: normal 300 50px/1 'Josefin Sans', sans-serif;
+        font: normal 300 40px/1 'Josefin Sans', sans-serif;
         position: absolute;
         left: 0;
         top: 35vh;
@@ -471,34 +471,6 @@ $easing: cubic-bezier(0.77, 0, 0.175, 1);
 
 }
 
-@media screen and (max-width: 2560px){
-    header {
-        h1 {
-            min-width: 700px;
-            font: normal 300 59px/1 'Josefin Sans', sans-serif !important;
-        }
-        .subcopy{
-            font: normal 300 36px/1 'Josefin Sans', sans-serif;
-            top: 45vh;
-        }
-        .contribute {
-            top: 50vh;
-            font-size: 24px;
-        }
-         .upload-form{
-            top: 50vh;
-            font-size: 24px;
-            margin-left: 22vh !important;
-         }
-         .scroll-down-dude:before,
-         .scroll-down-dude:after {
-             width: 50px;
-             height: 50px;
-         }
-
-    }
-
-}
 @media screen and (max-width: 1440px){
     header {
         h1 {
@@ -1012,7 +984,7 @@ $easing: cubic-bezier(0.77, 0, 0.175, 1);
             margin-left: 9.6vh !important;
         }
         .upload-form{
-            top: 60vh;
+            top: 61vh;
             margin-left: 5.5vh !important;
          }
 
