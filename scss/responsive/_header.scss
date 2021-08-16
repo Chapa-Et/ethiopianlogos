@@ -144,11 +144,24 @@
         }
     }
 }
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 495px) {
     header{
         .btn-toolbar{
             margin: 0 auto;
+        }
+        .upload{
+            top: 31vh;
+        }
+        
+    }
+}
+@media screen and (max-width: 450px) {
+    header{
+        .btn-toolbar{
+            margin: 0 auto !important;
+        }
+        .upload{
+            top: 30vh !important;
         }
         
     }
@@ -157,7 +170,7 @@
 @media screen and (max-width: 360px) {
     header{
         .upload{
-            top: 31vh;
+            top: 31vh !important;
         }
     }
 }
