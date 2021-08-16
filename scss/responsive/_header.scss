@@ -36,20 +36,7 @@
 }
 @media screen and (max-width: 880px) {
     header{
-        width: 90vw;
-        .contribute {
-            display: none;
-        }
-        .upload-form {
-            display: none;
-        }
-        .contribute-mobile {
-            display: block;
-        }
-        
-        .upload-mobile {
-            display: block;
-        }
+        width: 100vw;
         .subcopy {
             width: 100%;
             top: 22vh;
