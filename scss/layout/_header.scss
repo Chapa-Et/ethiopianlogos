@@ -214,9 +214,11 @@ header {
     .btn-toolbar{
         margin-left: 3.5%;
     }
+    .button-content {
+        margin-top: 32vh;
+        margin-left: -1vh;
+    }
     .contribute {
-        position: relative;
-        top: 30vh;
         border-style: solid;
         border:  4px solid #7DC400;
         background-color: #7DC400;
@@ -228,8 +230,6 @@ header {
         transition: .2s all ease-in-out;
     }
     .upload{
-        position: relative;
-        top: 30vh;
         border-style: solid;
         border:  4px solid #7DC400;
         background: none;
@@ -409,7 +409,7 @@ $easing: cubic-bezier(0.77, 0, 0.175, 1);
 .scroll-down-dude:before,
 .scroll-down-dude:after {
     position: relative;
-    top: 10vh;
+    top: 11vh;
 	content: '';
 	display: block;
     cursor: pointer;

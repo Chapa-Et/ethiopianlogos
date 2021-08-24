@@ -97,8 +97,9 @@
             margin-left: -0.9rem;
             font-size: 1rem;
         }
-        .btn-toolbar{
-            margin-left: -1%;
+        .button-content {
+            margin-top: 33vh;
+            margin-left: -2.6vh;
         }
         
     
@@ -149,8 +150,8 @@
         .btn-toolbar{
             margin: 0 auto;
         }
-        .upload{
-            top: 31vh;
+        .button-content {
+            margin-left: -2.4vh;
         }
         
     }
@@ -160,17 +161,18 @@
         .btn-toolbar{
             margin: 0 auto !important;
         }
-        .upload{
-            top: 30vh !important;
-        }
+       
         
     }
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 290px) {
     header{
+        .btn-toolbar{
+            margin-left: 3.8% !important;
+        }
         .upload{
-            top: 31vh !important;
+           width: 90%;
         }
     }
 }
