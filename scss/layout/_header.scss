@@ -1,0 +1,433 @@
+$grid-columns: 2 !default;
+$grid-gutter-width: 10px !default;
+header {
+    width: 100% ;
+    height: 100%;
+    background-size: cover;
+    overflow-x: hidden;
+    background-color: #63d471;
+    background-image: linear-gradient(-315deg, #0D1B34 0%, #7DC400 500%);
+    z-index: 600;
+
+    .heading {
+        width: 76.2vw;
+        height: 33vh;
+        min-height: 300px;
+        margin: 0 auto;
+        position: relative;
+
+        & .site-logo {
+            width: 10vh;
+            position: absolute;
+            top: 5%;
+            left: 0;
+
+            & img {
+                width: 100%;
+                min-width: 100px;
+                min-height: 100px;
+            }
+        }
+    }
+    .searchbar {
+        display: flex;
+        width: 35.9vw;
+        min-width: 550px;
+        height: 4.5vh;
+        font-family: inherit;
+        position: absolute;
+        right: 1.5%;
+
+        .search {
+            width: 65%;
+            position: relative;
+
+            & input {
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                appearance: none;
+                outline: none;
+                border: none;
+                box-sizing: border-box;
+                border: 1px solid $col-green-1;
+                width: 100%;
+                height: 40px;
+                border-top-right-radius: .2em;
+                border-bottom-right-radius: .2em;
+                line-height: 1.3;
+                margin: 0;
+                font-size: 16px;
+                font-family: inherit;
+                background-color: $col-green-2;
+                background-image: url('../images/icons/search.svg');
+                background-repeat: no-repeat;
+                background-position: right 1em top 50%;
+                background-size: 1em auto;
+                padding-left: 1em;
+            }
+        }
+        .select{
+            width: calc(35% - 2px); // account for the margin on the input
+
+            & select {
+                cursor: pointer;
+                font-size: 16px; // iOS Safari zooms in if less than 16px causing weird issues
+                font-family: inherit;
+                color: $col-white;
+                padding: .2em 1em; // fix for category text being cut halfway
+                line-height: 1.3;
+                height: 40px;
+                width: 100%;
+                box-sizing: border-box;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+                margin: 0;
+                border-color: $col-green-1;
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                appearance: none;
+                background-color: $col-green-1;
+                background-image: url('../images/icons/dropdown_button.svg'), linear-gradient($col-green-1, $col-green-1);
+                background-repeat: no-repeat;
+                background-position: right .7em top 50%;
+                background-size: .65em auto;
+    
+                &::-ms-expand {
+                    display: none;
+                }
+                &:focus,
+                &:active {
+                    outline: $col-green-2;
+                }
+            }
+        }
+    }
+    h1 {
+        position: relative;
+        top: 30vh;
+        color: $col-white;
+
+        & a {
+            width: auto;
+            color: inherit;
+            text-decoration-color: $col-green-1;
+
+            &:hover{
+                text-decoration-color: inherit;
+            }
+        }
+    }
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    .label {
+        float: left;
+        color: #FFF;
+      }
+      
+      /* Ripple magic */
+      
+      .ripple {
+        position: relative;
+        overflow: hidden;
+      
+        &:after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 0;
+          width: 5px;
+          height: 5px;
+          background: rgba(140, 255, 8, 0.795);
+          opacity: 0;
+          border-radius: 100%;
+          transform: scale(1, 1) translate(-50%);
+          transform-origin: 50% 50%;
+        }
+      
+        &::after {
+          animation: ripple 3.5s ease-out  infinite;
+        }
+      }
+      
+      @keyframes ripple {
+        0% {
+          transform: scale(0, 0);
+          opacity: 1;
+        }
+      
+        20% {
+          transform: scale(55, 45);
+          opacity: 1;
+        }
+      
+        100% {
+          opacity: 0;
+          transform: scale(180, 160);
+        }
+      }
+      
+      /* Borderr Highlight Effect */
+      
+      /* Chrome, Safari, Opera */
+      @-webkit-keyframes drawBorderFromCenter {
+        0% {
+          background-size: 0 2px, 0 0, 100% 100%;
+        }
+      
+        20% {
+          background-size: 100% 2px, 100% 0, 100% 100%;
+        }
+      
+        66% {
+          background-size: 100% 2px, 100% 98%, 100% 100%;
+        }
+      
+        99% {
+          background-size: 100% 2px, 100% 98%, 0 2px;
+        }
+      }
+    .visuallyhidden{
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
+        padding: 0;
+        border: 0;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+    }
+    .contribution{
+        position: relative;
+        top: 15%;
+    }
+    .subcopy {
+        font: normal 300 20px/1 'Josefin Sans', sans-serif;
+        position: relative;
+        top: 32vh;
+        right: 1%;
+        height: auto;
+        bottom: 0;
+        color: $col-white;
+    }
+    .btn-toolbar{
+        margin-left: 3.5%;
+    }
+    .contribute {
+        position: relative;
+        top: 30vh;
+        border-style: solid;
+        border:  4px solid #7DC400;
+        background-color: #7DC400;
+        color: $col-white;
+        font-size: inherit;
+        padding: 1% 2%;
+        outline: none;
+        border-radius: 4px;
+        transition: .2s all ease-in-out;
+    }
+    .upload{
+        position: relative;
+        top: 30vh;
+        border-style: solid;
+        border:  4px solid #7DC400;
+        background: none;
+        max-width: 130%;
+        width: 70%;
+        color: $col-white;
+        font-size: inherit;
+        padding: 1% 2%;
+        outline: none;
+        border-radius: 4px;
+        transition: .2s all ease-in-out;
+    }
+    .white-bg {
+        width: 100%;
+        height: 12%;
+        background-color: $col-white;
+        position: fixed;
+        top: 0;
+        z-index: 665;
+        transform: translateY(-100%);
+        transition: all .25s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    .scroll-show {
+        height: 90px;
+        position: absolute;
+
+        & .site-logo{
+            position: fixed;
+            top: 0; 
+            z-index: 666;
+            transform: scale(.6) translateX(-35%);
+            opacity: 0;
+            transition: all .2s ease-in-out;
+        }
+        & .searchbar {
+            position: fixed;
+            top: 25px;
+            right: 12.5%;
+            z-index: 666; 
+            opacity: 0;
+            transition: all .2s ease-in-out;
+
+            & input {
+                position: absolute;
+                right: 0;
+                width: 55%;
+                min-width: 240px;
+                transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+            }
+            & input:focus {
+                width: 100%;
+            }
+        }
+        & .select {
+            opacity: 0;
+            transform: translateX(100%);
+            transition: all .2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+            &::before {
+                content: '...';
+                position: absolute;
+                left: -36px;
+                width: 35px;
+                height: 40px;
+                text-align: center;
+                line-height: 30px;
+                background-color: $col-white;
+
+            }
+        }
+        .secondary-alphabet {
+            display: flex;
+            justify-content: space-between;
+            position: fixed;
+            width: 53%;
+            top: 35px; 
+            left: 18%;
+            z-index: 668;
+            opacity: 0;
+            & a {
+                text-decoration: none;
+                color: inherit;
+                opacity: .7;
+                font-size: 90%;
+            }
+        }
+    }
+    .contribute-mobile {
+        color: $col-grey-4;
+        text-decoration-color: $col-green-1;
+        position: absolute;
+        top: 14.5%;
+        right: 6%;
+        font-size: 150%;
+        display: none;
+    }
+    
+    .upload-mobile {
+        color: $col-grey-4;
+        text-decoration-color: $col-green-1;
+        position: absolute;
+        top: 18.5%;
+        right: 6%;
+        font-size: 150%;
+        display: none;
+    }
+
+$strokeWidth: 4px;
+$strokeColor: white;
+
+$timing: 2.6s;
+// $easing: ease-in-out;
+$easing: cubic-bezier(0.77, 0, 0.175, 1);
+
+
+
+
+
+.scroll-down-dude:before,
+.scroll-down-dude:after {
+    position: relative;
+    top: 10vh;
+	content: '';
+	display: block;
+    cursor: pointer;
+    margin: 0 auto;
+	width: 40px;
+	height: 40px;
+	transform: rotate(45deg);
+	border-bottom: $strokeWidth solid $strokeColor;
+	border-right: $strokeWidth solid $strokeColor;
+    justify-content: center;
+}
+
+.scroll-down-dude:before {
+	animation: down-arrow-before $timing $easing infinite;
+}
+
+.scroll-down-dude:after {
+	animation: down-arrow-after $timing $easing infinite;
+}
+
+@keyframes down-arrow-before {
+	50% {
+		transform: rotate(45deg) translate(70%, 70%);
+	}
+	100% {
+		transform: rotate(45deg) translate(70%, 70%);
+	}
+}
+
+@keyframes down-arrow-after {
+	50% {
+		transform: rotate(45deg) translate(110%, 110%);
+		opacity: 0;
+	}
+	51% {
+		transform: rotate(45deg) translate(-130%, -130%);
+	}
+	100% {
+		transform: rotate(45deg) translate(-70%, -70%);
+		opacity: 1;
+	}
+}
+}
+
+@media screen and (max-width: 768px){
+    header {
+$strokeWidth: 4px;
+$strokeColor: white;
+
+$timing: 2.6s;
+// $easing: ease-in-out;
+$easing: cubic-bezier(0.77, 0, 0.175, 1);
+
+
+.scroll-down-dude:before,
+.scroll-down-dude:after {
+    position: relative;
+    top: 10vh;
+	content: '';
+	display: block;
+    cursor: pointer;
+    margin: 0 auto;
+	width: 20px;
+	height: 20px;
+	transform: rotate(45deg);
+	border-bottom: $strokeWidth solid $strokeColor;
+	border-right: $strokeWidth solid $strokeColor;
+    justify-content: center;
+}
+
+
+    }
+
+}
+
+
+
+
+

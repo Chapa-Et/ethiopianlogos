@@ -1,0 +1,67 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-color: $col-white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    &__left {
+        height: 100vh;
+        position: relative;
+
+        &--thin {
+            background-color: $col-green-1;
+            width: 0.7%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        &--thick {
+            width: 6%;
+            height: 100%;
+        }
+    }
+    &__stripes {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr;
+    }
+    &__stripe {
+        border-right: .035rem $col-grey-3;
+        opacity: .6;
+        width: 70%;
+        height: 100%;
+        border-right-style: dashed;
+
+        &:nth-child(2) {
+            border-right-style: solid;
+            width: 83%;
+            opacity: .45;
+        }
+        &:nth-child(3) {
+            border-right-style: dashed;
+            width: 100%;
+            opacity: .45;
+        }
+        
+        &:nth-child(4) {
+            border-right-style: solid;
+            width: 116%;
+            opacity: .45;
+        }
+        &:nth-child(5) {
+            border-right-style: dashed;
+            width: 130%;
+            opacity: .45;
+        }
+
+    }
+}
