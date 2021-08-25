@@ -110,12 +110,11 @@ header {
         color: $col-white;
 
         & a {
-            width: auto;
             color: inherit;
             text-decoration-color: $col-green-1;
 
             &:hover{
-                text-decoration-color: inherit;
+                text-decoration-color: $col-green-1;
             }
         }
     }
@@ -198,10 +197,6 @@ header {
         width: 1px;
         overflow: hidden;
     }
-    .contribution{
-        position: relative;
-        top: 15%;
-    }
     .subcopy {
         font: normal 300 20px/1 'Josefin Sans', sans-serif;
         position: relative;
@@ -212,7 +207,7 @@ header {
         color: $col-white;
     }
     .btn-toolbar{
-        margin-left: 3.5%;
+        margin-left: 4.5%;
     }
     .button-content {
         margin-top: 32vh;
@@ -220,6 +215,7 @@ header {
     }
     .contribute {
         border-style: solid;
+        text-align: center;
         border:  4px solid #7DC400;
         background-color: #7DC400;
         color: $col-white;
@@ -231,9 +227,10 @@ header {
     }
     .upload{
         border-style: solid;
+        text-align: center;
         border:  4px solid #7DC400;
         background: none;
-        max-width: 130%;
+        max-width: 80%;
         width: 70%;
         color: $col-white;
         font-size: inherit;
@@ -351,13 +348,13 @@ $easing: cubic-bezier(0.77, 0, 0.175, 1);
 .scroll-down-dude:before,
 .scroll-down-dude:after {
     position: relative;
-    top: 10vh;
+    top: 11vh;
 	content: '';
 	display: block;
     cursor: pointer;
     margin: 0 auto;
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
 	transform: rotate(45deg);
 	border-bottom: $strokeWidth solid $strokeColor;
 	border-right: $strokeWidth solid $strokeColor;
