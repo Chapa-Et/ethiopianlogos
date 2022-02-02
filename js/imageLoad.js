@@ -74,7 +74,7 @@ function createLogos(logoArray) {
 			logo.url
 		}' title='${logo.urlTitle}' target='_blank' class='logo__text--link'>${
 			logo.title
-		}</a></p><p class='logo__text--secondary'>${`${logo.category}`.replace(',', ' / ')}</p></div></div>`;
+		}</a></p><p class='logo__text--secondary'>${`${logo.category}`.replace(',', ' / ')}</p><p class='logo__text--secondary'>${`${logo.Hint}`.replace(',',' / ')}</p></div></div>`;
 		const main = document.querySelector('main');
 		main.insertAdjacentHTML('beforeend', html);
 		alphabetlink.insertAdjacentHTML('beforeend', alphalinkhtml);
