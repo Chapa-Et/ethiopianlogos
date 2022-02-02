@@ -6,7 +6,9 @@
 		"url": "http://www.aau.edu.et/",
 		"category": [
 			"Education"
-		]
+			
+		],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "African Union",
@@ -14,7 +16,8 @@
 		"url": "https://au.int/",
 		"category": [
 			"IGO"
-		]
+		],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Awash International Bank",
@@ -23,7 +26,8 @@
 		"category": [
 			"Banking",
 			"Financial Services"
-		]
+		],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Ayat real Estate",
@@ -31,7 +35,8 @@
 		"url": "https://ayatrealestate.com/en/home/",
 		"category": [
 			"Real Estate"
-		]
+		],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Bandira Addis Map Entertainment",
@@ -41,7 +46,8 @@
 			"Business Ratings and Reviews",
 			"Local Search",
 			"Entertainment"
-		]
+		],
+		"Hint": ""
 	},
 	{
 		"title": "Bank of Abyssinia",
@@ -50,7 +56,8 @@
 		"category": [
 			"Banking",
 			"Financial Services"
-		]
+		],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "blueMoon",
@@ -58,7 +65,8 @@
 		"url": "https://www.bluemoonethiopia.com/",
 		"category": [
 			"Incubators"
-		]
+		],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Chapa",
@@ -67,7 +75,8 @@
 		"category": [
 			"Banking",
 			"Financial Services"
-		]
+		],
+		"Hint": ""
 	},
 	{
 		"title": "Commercial Bank of Ethiopia",
@@ -76,7 +85,8 @@
 		"category": [
 			"Banking",
 			"Financial Services"
-		]
+		],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Cooperative Bank of Oromia",
@@ -94,55 +104,64 @@
 		"category": [
 			"Manufacturer",
 			"Distribution"
-		]
+		],
+		"Hint": ""
 	},
 	{
 		"title": "Ethio Telecom",
 		"filename": "ethio_telecom",
 		"url": "https://www.ethiotelecom.et/",
-		"category": ["Telecommunincation"]
+		"category": ["Telecommunincation"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Ethiopian Agricultural Transformation Agency",
 		"filename": "ethiopian_agricultural_transformation_agency",
 		"url": "https://www.ata.gov.et/",
-		"category": ["Agriculture"]
+		"category": ["Agriculture"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Ethiopian Sugar Corporation",
 		"filename": "ethiopian_sugar_corporation",
 		"url": "https://etsugar.com/",
-		"category": ["Agritech"]
+		"category": ["Agritech"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Flintstone Homes",
 		"filename": "flintstone_homes",
 		"url": "https://www.flintstonehomes.com/",
-		"category": ["Real Estate"]
+		"category": ["Real Estate"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Gift Real Estate",
 		"filename": "gift_real_estate",
 		"url": "http://www.giftrealestate.com.et/",
-		"category": ["Real Estate"]
+		"category": ["Real Estate"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Hilton",
 		"filename": "hilton",
 		"url": "https://www.hilton.com/en/hotels/addhitw-hilton-addis-ababa/",
-		"category": ["Hotels"]
+		"category": ["Hotels"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Hyatt Regency",
 		"filename": "hyatt_regency",
 		"url": "https://www.hyatt.com/en-US/hotel/ethiopia/hyatt-regency-addis-ababa/addra",
-		"category": ["Real Estate"]
+		"category": ["Real Estate"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Innohub",
 		"filename": "innohub",
 		"url": "https://innohubgroup.com/",
-		"category": ["ICT", "Software"]
+		"category": ["ICT", "Software"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Legacy Real estate",
@@ -150,7 +169,8 @@
 		"url": "https://legacyethiopia.com",
 		"category": [
 			"Real Estate"
-		]
+		],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Marriott International",
@@ -158,7 +178,8 @@
 		"url": "https://www.marriott.com/default.mi",
 		"category": [
 			"Hotels"
-		]
+		],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Moenco",
@@ -167,103 +188,120 @@
 		"category": [
 			"Automotive Distributor",
 			"Retailer"
-		]
+		],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "National Bank of Ethiopia",
 		"filename": "national_bank_of_ethiopia",
 		"url": "https://nbebank.com/",
-		"category": ["Banking", "Financial Services"]
+		"category": ["Banking", "Financial Services"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "National Oil Ethiopia",
 		"filename": "national_oil_ethiopia",
 		"url": "https://www.nocethiopia.com/",
-		"category": ["Petroleum and Gas"]
+		"category": ["Petroleum and Gas"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Nyala Motors",
 		"filename": "nyala_motors",
 		"url": "https://www.nyalamotors.com/en/",
-		"category": ["Automotive Distributor"]
+		"category": ["Automotive Distributor"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Oromia International Bank",
 		"filename": "oromia_international_bank",
 		"url": "https://orointbank.net/en/",
-		"category": ["Banking", "Financial Services"]
+		"category": ["Banking", "Financial Services"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Qinash",
 		"filename": "qinash",
 		"url": "https://qinash.com/",
-		"category": ["Ecommerce"]
+		"category": ["Ecommerce"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Tomoca",
 		"filename": "tomoca",
 		"url": "https://www.tomocacoffee.com/",
-		"category": ["Cafe"]
+		"category": ["Cafe"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Tsehay Real Estate",
 		"filename": "tsehay_real_estate",
 		"url": "https://tsehayrealities.com/",
-		"category": ["Real Estate"]
+		"category": ["Real Estate"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Ramada",
 		"filename": "ramada",
 		"url": "https://www.ramadaaddis.com/",
-		"category": ["Hotel"]
+		"category": ["Hotel"],
+		"Hint": "Vector Logo not available"
 	},
 	
 	{
 		"title": "Ride",
 		"filename": "ride",
 		"url": "https://ride8294.com/",
-		"category": ["Taxi Hailing"]
+		"category": ["Taxi Hailing"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "SAP",
 		"filename": "sap",
 		"url": "https://www.sap.com/index.html",
-		"category": ["Software"]
+		"category": ["Software"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Save the Children International",
 		"filename": "save_the_children",
 		"url": "https://www.sunshineinvestmentgroup.net/",
-		"category": ["NGO"]
+		"category": ["NGO"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Sunshine",
 		"filename": "sunshine",
 		"url": "https://www.savethechildren.net/",
-		"category": ["Investment Group"]
+		"category": ["Investment Group"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "United Nations Economic Commision for Africa",
 		"filename": "uneca",
 		"url": "https://www.uneca.org/",
-		"category": ["IGO"]
+		"category": ["IGO"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Washington Medical Center",
 		"filename": "washington_medical_center",
 		"url": "https://www.wmcethiopia.com/",
-		"category": ["Health"]
+		"category": ["Health"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Yotek Real Estate ",
 		"filename": "yotek_real_estate",
 		"url": "http://www.yotekcon.com",
-		"category": ["Real Estate"]
+		"category": ["Real Estate"],
+		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Zemen Bank",
 		"filename": "zemen_bank",
 		"url": "https://www.zemenbank.com/",
-		"category": ["Banking", "Financial Services"]
+		"category": ["Banking", "Financial Services"],
+		"Hint": " "
 	}
 ]
