@@ -4,7 +4,7 @@
   "description": "an open source website for downloading high quality ethiopian company logos",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "build": "node-sass scss/main.scss -o css/",
     "watch": "npm run build && node-sass scss/main.scss -o css/ --watch",
     "serve": "live-server --host=localhost",
