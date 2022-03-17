@@ -227,6 +227,13 @@
 		"Hint": "Vector Logo not available"
 	},
 	{
+		"title": "TeleBirr",
+		"filename": "tele_birr",
+		"url": "https://www.telebirr.com",
+		"category": ["Financial Services"],
+		"Hint": ""
+	},
+	{
 		"title": "Tomoca",
 		"filename": "tomoca",
 		"url": "https://www.tomocacoffee.com/",
