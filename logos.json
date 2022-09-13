@@ -310,15 +310,5 @@
 		"url": "https://www.zemenbank.com/",
 		"category": ["Banking", "Financial Services"],
 		"Hint": " "
-	},
-	{
-		"title": "Bahir Dar University",
-		"filename": "bahir_dar_university",
-		"url": "https://www.bdu.edu.et/",
-		"category": [
-			"Education"
-			
-		],
-		"Hint": " "
 	}
 ]
