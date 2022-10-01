@@ -277,6 +277,13 @@
 		"Hint": "Vector Logo not available"
 	},
 	{
+		"title": "Sirabota",
+		"filename": "sirabota",
+		"url": "https://www.sirabota.com/",
+		"category": ["Software","ICT"],
+		"Hint": ""
+	},
+	{
 		"title": "Sunshine",
 		"filename": "sunshine",
 		"url": "https://www.savethechildren.net/",
