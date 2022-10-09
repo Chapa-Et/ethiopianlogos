@@ -173,6 +173,16 @@
 		"Hint": "Vector Logo not available"
 	},
 	{
+		"title": "Loline Mag",
+		"filename": "loline_mag",
+		"url": "https://lolinemag.com",
+		"category": [
+			"Blog",
+			"Media"
+		],
+		"Hint": ""
+	},
+	{
 		"title": "Marriott International",
 		"filename": "marriott",
 		"url": "https://www.marriott.com/default.mi",
