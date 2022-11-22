@@ -337,5 +337,12 @@
 			
 		],
 		"Hint": " "
+	},
+	{
+		"title": "Gasha Digital",
+		"filename": "gasha_digital_technology",
+		"url": "https://gashadigital.com/",
+		"category": ["Software", "Gaming", "Comics", "Advertising"],
+		"Hint": " "
 	}
 ]
