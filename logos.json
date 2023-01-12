@@ -344,5 +344,12 @@
 		"url": "https://gashadigital.com/",
 		"category": ["Software", "Gaming", "Comics", "Advertising"],
 		"Hint": " "
+	},
+	{
+		"title": "Dashne Bank",
+		"filename": "dashne_bank",
+		"url": "https://dashenbanksc.com/",
+		"category": ["Banking", "Financial Services"],
+		"Hint": " "
 	}
 ]
