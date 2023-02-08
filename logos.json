@@ -30,6 +30,13 @@
 		"Hint": "Vector Logo not available"
 	},
 	{
+		"title": "Awash International Bank ( No text )",
+		"filename": "awash_international_bank_no_text",
+		"url": "https://www.awashbank.com/",
+		"category": ["Banking", "Financial Services"],
+		"Hint": "Logo with no text"
+	},
+	{
 		"title": "Ayat real Estate",
 		"filename": "ayat_real_estate",
 		"url": "https://ayatrealestate.com/en/home/",
