@@ -358,5 +358,12 @@
 		"url": "https://dashenbanksc.com/",
 		"category": ["Banking", "Financial Services"],
 		"Hint": " "
+	},
+	{
+		"title": "Amhara Bank",
+		"filename": "amhara_bank",
+		"url": "https://amharabank.com.et/",
+		"category": ["Banking", "Financial Services"],
+		"Hint": " "
 	}
 ]
