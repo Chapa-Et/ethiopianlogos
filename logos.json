@@ -365,5 +365,19 @@
 		"url": "https://amharabank.com.et/",
 		"category": ["Banking", "Financial Services"],
 		"Hint": " "
+	},
+	{
+		"title": "Hibret Bank",
+		"filename": "hibret_bank",
+		"url": "https://hibretbank.com.et/",
+		"category": ["Banking", "Financial Services"],
+		"Hint": " "
+	},
+	{
+		"title": "Hibret Bank ( No text )",
+		"filename": "hibret_bank_no_text",
+		"url": "https://hibretbank.com.et/",
+		"category": ["Banking", "Financial Services"],
+		"Hint": "Logo with no text"
 	}
 ]
