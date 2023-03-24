@@ -379,5 +379,19 @@
 		"url": "https://hibretbank.com.et/",
 		"category": ["Banking", "Financial Services"],
 		"Hint": "Logo with no text"
+	},
+	{
+		"title": "CBE Birr",
+		"filename": "cbe_birr_normal",
+		"url": "",
+		"category": ["Banking", "Financial Services", "Software"],
+		"Hint": ""
+	},
+	{
+		"title": "CBE Birr ( No background )",
+		"filename": "cbe_birr_light",
+		"url": "",
+		"category": ["Banking", "Financial Services", "Software"],
+		"Hint": "Logo with no background"
 	}
 ]
