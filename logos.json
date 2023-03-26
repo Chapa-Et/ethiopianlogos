@@ -393,5 +393,12 @@
 		"url": "",
 		"category": ["Banking", "Financial Services", "Software"],
 		"Hint": "Logo with no background"
+	},
+	{
+		"title": "Kacha",
+		"filename": "kacha",
+		"url": "https://kacha.et/",
+		"category": ["Financial Services", "Software"],
+		"Hint": ""
 	}
 ]
