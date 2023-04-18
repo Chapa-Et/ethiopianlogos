@@ -170,6 +170,14 @@
 		"category": ["ICT", "Software"],
 		"Hint": "Vector Logo not available"
 	},
+		{
+		"title": "Jimma University",
+		"filename": "jimma_university",
+		"url": "http://www.ju.edu.et/",
+		"category": [
+			"Education"
+		]
+	},
 	{
 		"title": "Legacy Real estate",
 		"filename": "legacy_real_estate",
