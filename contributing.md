@@ -63,39 +63,47 @@ not
 
 ### Categories
 ```
+* Advertising
 * Banking
-* Financial Services
+* beverage
+* Blog
 * Branding
+* Business Ratings and Reviews
+* Comics
 * Construction
+* Defense
+* Domain Registrar
 * Ecommerce
-* Marketplace
-* NGO
+* Entertainment
+* Event Management
+* Financial Services
 * Gaming
-* Sports
+* Government
 * Government Agency
 * Health
+* Hospitality
+* Hotel
+* ICT
+* ISP
+* Local Search
+* Marketplace
 * Media
-* Entertainment
+* Military
+* Mobile Payments
 * Newspaper
-* Blog
+* NGO
+* Online Food Delivery
 * Petroleum and Gas
 * Product Design
+* Publishing
 * Real Estate
 * Restaurant
 * Software
-* ICT
+* Sports
 * Telecommunication
-* ISP
+* Tourism
 * Transportation
-* Publishing
 * Web Host
-* Domain Registrar
-* Local Search
-* Business Ratings and Reviews
-* Online Food Delivery
-* Event Management
-* Comics
-* Advertising
 ```
 
 **NOTE**: _Pull requests are usually reviewed within 48 hours. Once your pull request is merged, you should see your logo on the site a few minutes after._

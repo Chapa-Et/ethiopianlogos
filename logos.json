@@ -400,5 +400,113 @@
 		"url": "https://kacha.et/",
 		"category": ["Financial Services", "Software"],
 		"Hint": ""
+	},
+		{
+		"title": "MICE",
+		"filename": "mice",
+		"url": "https://mot.gov.et/mice-ethiopia/",
+		"category": [
+			"Event Management",
+			"Tourism",
+			"Hospitality"
+		],
+		"Hint": "Vector Logo not available"
+	},
+	{
+		"title": "Ministry of Health",
+		"filename": "ministry_of_health",
+		"url": "https://www.moh.gov.et/site/",
+		"category": [
+			"Government",
+			"Healthcare"
+		],
+		"Hint": "Vector Logo not available"
+	},
+	{
+		"title": "Office of The Prime Minister",
+		"filename": "office_of_the_prime_minister",
+		"url": "https://www.pmo.gov.et/",
+		"category": [
+			"Government"
+		],
+		"Hint": "Vector Logo not available"
+	},
+	{
+		"title": "Ministry of Transport",
+		"filename": "ministry_of_transport",
+		"url": "https://www.ethiopia.gov.et/ministries/ministry-of-transport/",
+		"category": [
+			"Government",
+			"Transportation"
+		],
+		"Hint": "Vector Logo not available"
+	},
+	{
+		"title": "Marriott",
+		"filename": "marriott",
+		"url": "https://marriott-hotels.marriott.com/",
+		"category": [
+			"Hospitality",
+			"Hotel"
+		],
+		"Hint": ""
+	},
+	{
+		"title": "Habesha Beer",
+		"filename": "habesha_beer",
+		"url": "https://www.habeshabreweries.com/#",
+		"category": [
+			"Beverage"
+		],
+		"Hint": "Vector Logo not available"
+	},
+	{
+		"title": "Ethiopian Air Force",
+		"filename": "ethiopian_air_force",
+		"url": "https://www.mod.gov.et/",
+		"category": [
+			"Government",
+			"Military"
+		],
+		"Hint": ""
+	},
+	{
+		"title": "Ethiopian Defense Force",
+		"filename": "ethiopian_defense_force",
+		"url": "https://www.mod.gov.et/",
+		"category": [
+			"Government",
+			"Military",
+			"Defense"
+		],
+		"Hint": ""
+	},
+	{
+		"title": "Amole",
+		"filename": "amole",
+		"url": "https://dashenbanksc.com/amole-payment-services/",
+		"category": [
+			"Financial Services",
+			"Mobile Payments"
+		],
+		"Hint": ""
+	},
+	{
+		"title": "Ministry of Peace",
+		"filename": "ministry_of_peace",
+		"url": "https://www.mop.gov.et/",
+		"category": [
+			"Government"
+		],
+		"Hint": "Vector Logo not available"
+	},
+	{
+		"title": "Tourism Ethiopia",
+		"filename": "tourism_ethiopia",
+		"url": "https://mot.gov.et/",
+		"category": [
+			"Tourism"
+		],
+		"Hint": "Vector Logo not available"
 	}
 ]
