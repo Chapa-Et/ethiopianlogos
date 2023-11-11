@@ -508,5 +508,14 @@
 			"Tourism"
 		],
 		"Hint": "Vector Logo not available"
+	},
+	{
+		"title": "Jimma University",
+		"filename": "jimma_university",
+		"url": "https://www.ju.edu.et/",
+		"category": [
+			"Education"
+		],
+		"Hint": "Vector Logo not available"
 	}
 ]
