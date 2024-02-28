@@ -1,5 +1,14 @@
 [
-	
+	{
+		"title": "Addis Ababa Science And Technology University",
+		"filename": "addis_ababa_science_and_technology_university",
+		"url": "http://www.aastu.edu.et/",
+		"category": [
+			"Education"
+			
+		],
+		"Hint": ""
+	},
 	{
 		"title": "Addis Ababa University",
 		"filename": "addis_ababa_university",
