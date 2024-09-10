@@ -5,8 +5,8 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "build": "node-sass scss/main.scss -o css/",
-    "watch": "npm run build && node-sass scss/main.scss -o css/ --watch",
+    "build": "sass scss/main.scss css/main.css",
+    "watch": "npm run build && sass --watch scss/main.scss:css/main.css",
     "serve": "live-server --host=localhost",
     "dev": "run-p watch serve",
     "start": "npm run dev",
@@ -48,6 +48,6 @@
     }
   },
   "dependencies": {
-    "node-sass": "^9.0.0"
+    "sass": "^1.78.0"
   }
 }
