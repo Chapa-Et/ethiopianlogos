@@ -75,6 +75,16 @@
 		],
 		"Hint": "Vector Logo not available"
 	},
+		{
+		"title": "Bank of Abyssinia ( No text )",
+		"filename": "bank_of_abyssinia_no_text",
+		"url": "https://www.bankofabyssinia.com/",
+		"category": [
+			"Banking",
+			"Financial Services"
+		],
+		"Hint": "Vector Logo not available"
+	},
 	{
 		"title": "blueMoon",
 		"filename": "blueMoon",
