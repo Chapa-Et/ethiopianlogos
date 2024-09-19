@@ -526,5 +526,14 @@
 			"Education"
 		],
 		"Hint": "Vector Logo not available"
+	},
+	{
+		"title": "iceaddis",
+		"filename": "iceaddis",
+		"url": "https://www.iceaddis.com",
+		"category": [
+			"Incubator", "Coworking Space"
+		]
 	}
+
 ]
