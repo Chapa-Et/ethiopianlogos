@@ -95,6 +95,26 @@
 		"Hint": ""
 	},
 	{
+		"title": "Chapa ( No text )",
+		"filename": "chapa_no_text",
+		"url": "https://chapa.co/",
+		"category": [
+			"Banking",
+			"Financial Services"
+		],
+		"Hint": ""
+	},
+	{
+		"title": "Chapa ( Gradient )",
+		"filename": "chapa_gradient",
+		"url": "https://chapa.co/",
+		"category": [
+			"Banking",
+			"Financial Services"
+		],
+		"Hint": ""
+	},
+	{
 		"title": "Commercial Bank of Ethiopia",
 		"filename": "commercial_bank_of_ethiopia",
 		"url": "http://combanketh.et/",
