@@ -3,39 +3,28 @@
 		"title": "Addis Ababa Science And Technology University",
 		"filename": "addis_ababa_science_and_technology_university",
 		"url": "http://www.aastu.edu.et/",
-		"category": [
-			"Education"
-			
-		],
+		"category": ["Education"],
 		"Hint": ""
 	},
 	{
 		"title": "Addis Ababa University",
 		"filename": "addis_ababa_university",
 		"url": "http://www.aau.edu.et/",
-		"category": [
-			"Education"
-			
-		],
+		"category": ["Education"],
 		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "African Union",
 		"filename": "african_union",
 		"url": "https://au.int/",
-		"category": [
-			"IGO"
-		],
+		"category": ["IGO"],
 		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Awash International Bank",
 		"filename": "awash_international_bank",
 		"url": "https://www.awashbank.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		],
+		"category": ["Banking", "Financial Services"],
 		"Hint": "Vector Logo not available"
 	},
 	{
@@ -49,49 +38,46 @@
 		"title": "Ayat real Estate",
 		"filename": "ayat_real_estate",
 		"url": "https://ayatrealestate.com/en/home/",
-		"category": [
-			"Real Estate"
-		],
+		"category": ["Real Estate"],
 		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Bandira Addis Map Entertainment",
 		"filename": "bandira_addis_map_entertainment",
 		"url": "https://www.addismap.com/bandira/",
-		"category": [
-			"Business Ratings and Reviews",
-			"Local Search",
-			"Entertainment"
-		],
+		"category": ["Business Ratings and Reviews", "Local Search", "Entertainment"],
+		"Hint": ""
+	},
+	{
+		"title": "Cellutech",
+		"filename": "cellutech",
+		"url": "https://cellutech.net/",
+		"category": ["Software", "ICT"],
 		"Hint": ""
 	},
 	{
 		"title": "Bank of Abyssinia",
 		"filename": "bank_of_abyssinia",
 		"url": "https://www.bankofabyssinia.com/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		],
+		"category": ["Banking", "Financial Services"],
 		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "blueMoon",
 		"filename": "blueMoon",
 		"url": "https://www.bluemoonethiopia.com/",
+
 		"category": [
 			"Incubator"
 		],
+
 		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Chapa",
 		"filename": "chapa",
 		"url": "https://chapa.co/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		],
+		"category": ["Banking", "Financial Services"],
 		"Hint": ""
 	},
 	{
@@ -118,29 +104,20 @@
 		"title": "Commercial Bank of Ethiopia",
 		"filename": "commercial_bank_of_ethiopia",
 		"url": "http://combanketh.et/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		],
+		"category": ["Banking", "Financial Services"],
 		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Cooperative Bank of Oromia",
 		"filename": "cooperative_bank_of_oromia",
 		"url": "https://coopbankoromia.com.et/",
-		"category": [
-			"Banking",
-			"Financial Services"
-		]
+		"category": ["Banking", "Financial Services"]
 	},
 	{
 		"title": "Dangote",
 		"filename": "dangote",
 		"url": "https://www.dangotecement.com/ethiopia/",
-		"category": [
-			"Manufacturer",
-			"Distribution"
-		],
+		"category": ["Manufacturer", "Distribution"],
 		"Hint": ""
 	},
 	{
@@ -203,38 +180,28 @@
 		"title": "Legacy Real estate",
 		"filename": "legacy_real_estate",
 		"url": "https://legacyethiopia.com",
-		"category": [
-			"Real Estate"
-		],
+		"category": ["Real Estate"],
 		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Loline Mag",
 		"filename": "loline_mag",
 		"url": "https://lolinemag.com",
-		"category": [
-			"Blog",
-			"Media"
-		],
+		"category": ["Blog", "Media"],
 		"Hint": ""
 	},
 	{
 		"title": "Marriott International",
 		"filename": "marriott",
 		"url": "https://www.marriott.com/default.mi",
-		"category": [
-			"Hotels"
-		],
+		"category": ["Hotels"],
 		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Moenco",
 		"filename": "moenco",
 		"url": "https://moencoethiopia.com/",
-		"category": [
-			"Automotive Distributor",
-			"Retailer"
-		],
+		"category": ["Automotive Distributor", "Retailer"],
 		"Hint": "Vector Logo not available"
 	},
 	{
@@ -300,7 +267,7 @@
 		"category": ["Hotel"],
 		"Hint": "Vector Logo not available"
 	},
-	
+
 	{
 		"title": "Ride",
 		"filename": "ride",
@@ -326,7 +293,7 @@
 		"title": "Sirabota",
 		"filename": "sirabota",
 		"url": "https://www.sirabota.com/",
-		"category": ["Software","ICT"],
+		"category": ["Software", "ICT"],
 		"Hint": ""
 	},
 	{
@@ -368,10 +335,7 @@
 		"title": "Bahir Dar University",
 		"filename": "bahir_dar_university",
 		"url": "https://www.bdu.edu.et/",
-		"category": [
-			"Education"
-			
-		],
+		"category": ["Education"],
 		"Hint": " "
 	},
 	{
@@ -430,121 +394,88 @@
 		"category": ["Financial Services", "Software"],
 		"Hint": ""
 	},
-		{
+	{
 		"title": "MICE",
 		"filename": "mice",
 		"url": "https://mot.gov.et/mice-ethiopia/",
-		"category": [
-			"Event Management",
-			"Tourism",
-			"Hospitality"
-		],
+		"category": ["Event Management", "Tourism", "Hospitality"],
 		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Ministry of Health",
 		"filename": "ministry_of_health",
 		"url": "https://www.moh.gov.et/site/",
-		"category": [
-			"Government",
-			"Healthcare"
-		],
+		"category": ["Government", "Healthcare"],
 		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Office of The Prime Minister",
 		"filename": "office_of_the_prime_minister",
 		"url": "https://www.pmo.gov.et/",
-		"category": [
-			"Government"
-		],
+		"category": ["Government"],
 		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Ministry of Transport",
 		"filename": "ministry_of_transport",
 		"url": "https://www.ethiopia.gov.et/ministries/ministry-of-transport/",
-		"category": [
-			"Government",
-			"Transportation"
-		],
+		"category": ["Government", "Transportation"],
 		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Marriott",
 		"filename": "marriott",
 		"url": "https://marriott-hotels.marriott.com/",
-		"category": [
-			"Hospitality",
-			"Hotel"
-		],
+		"category": ["Hospitality", "Hotel"],
 		"Hint": ""
 	},
 	{
 		"title": "Habesha Beer",
 		"filename": "habesha_beer",
 		"url": "https://www.habeshabreweries.com/#",
-		"category": [
-			"Beverage"
-		],
+		"category": ["Beverage"],
 		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Ethiopian Air Force",
 		"filename": "ethiopian_air_force",
 		"url": "https://www.mod.gov.et/",
-		"category": [
-			"Government",
-			"Military"
-		],
+		"category": ["Government", "Military"],
 		"Hint": ""
 	},
 	{
 		"title": "Ethiopian Defense Force",
 		"filename": "ethiopian_defense_force",
 		"url": "https://www.mod.gov.et/",
-		"category": [
-			"Government",
-			"Military",
-			"Defense"
-		],
+		"category": ["Government", "Military", "Defense"],
 		"Hint": ""
 	},
 	{
 		"title": "Amole",
 		"filename": "amole",
 		"url": "https://dashenbanksc.com/amole-payment-services/",
-		"category": [
-			"Financial Services",
-			"Mobile Payments"
-		],
+		"category": ["Financial Services", "Mobile Payments"],
 		"Hint": ""
 	},
 	{
 		"title": "Ministry of Peace",
 		"filename": "ministry_of_peace",
 		"url": "https://www.mop.gov.et/",
-		"category": [
-			"Government"
-		],
+		"category": ["Government"],
 		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Tourism Ethiopia",
 		"filename": "tourism_ethiopia",
 		"url": "https://mot.gov.et/",
-		"category": [
-			"Tourism"
-		],
+		"category": ["Tourism"],
 		"Hint": "Vector Logo not available"
 	},
 	{
 		"title": "Jimma University",
 		"filename": "jimma_university",
 		"url": "https://www.ju.edu.et/",
-		"category": [
-			"Education"
-		],
+		"category": ["Education"],
 		"Hint": "Vector Logo not available"
 	},
 	{
