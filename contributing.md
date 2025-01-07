@@ -71,6 +71,7 @@ not
 * Business Ratings and Reviews
 * Comics
 * Construction
+* Coworking Space
 * Defense
 * Domain Registrar
 * Ecommerce
@@ -84,6 +85,7 @@ not
 * Hospitality
 * Hotel
 * ICT
+* Incubator
 * ISP
 * Local Search
 * Marketplace

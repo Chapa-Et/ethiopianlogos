@@ -66,7 +66,11 @@
 		"title": "blueMoon",
 		"filename": "blueMoon",
 		"url": "https://www.bluemoonethiopia.com/",
-		"category": ["Incubators"],
+
+		"category": [
+			"Incubator"
+		],
+
 		"Hint": "Vector Logo not available"
 	},
 	{
@@ -74,6 +78,26 @@
 		"filename": "chapa",
 		"url": "https://chapa.co/",
 		"category": ["Banking", "Financial Services"],
+		"Hint": ""
+	},
+	{
+		"title": "Chapa ( No text )",
+		"filename": "chapa_no_text",
+		"url": "https://chapa.co/",
+		"category": [
+			"Banking",
+			"Financial Services"
+		],
+		"Hint": ""
+	},
+	{
+		"title": "Chapa ( Gradient )",
+		"filename": "chapa_gradient",
+		"url": "https://chapa.co/",
+		"category": [
+			"Banking",
+			"Financial Services"
+		],
 		"Hint": ""
 	},
 	{
@@ -453,5 +477,14 @@
 		"url": "https://www.ju.edu.et/",
 		"category": ["Education"],
 		"Hint": "Vector Logo not available"
+	},
+	{
+		"title": "iceaddis",
+		"filename": "iceaddis",
+		"url": "https://www.iceaddis.com",
+		"category": [
+			"Incubator", "Coworking Space"
+		]
 	}
+
 ]
