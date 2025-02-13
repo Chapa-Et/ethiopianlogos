@@ -84,7 +84,7 @@
 		"url": "https://chapa.co/",
 		"category": ["Banking", "Financial Services"],
 		"Hint": ""
-	}),
+	},
 	{
 		"title": "Chapa ( Gradient )",
 		"filename": "chapa_gradient",
@@ -385,7 +385,7 @@
 		"url": "https://kacha.et/",
 		"category": ["Financial Services", "Software"],
 		"Hint": ""
-	},	
+	},
 	{
 		"title": "Kachamale Technologies",
 		"filename": "kachamale_technologies",
