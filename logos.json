@@ -67,7 +67,9 @@
 		"filename": "blueMoon",
 		"url": "https://www.bluemoonethiopia.com/",
 
-		"category": ["Incubator"],
+		"category": [
+			"Incubator"
+		],
 
 		"Hint": "Vector Logo not available"
 	},
@@ -82,14 +84,20 @@
 		"title": "Chapa ( No text )",
 		"filename": "chapa_no_text",
 		"url": "https://chapa.co/",
-		"category": ["Banking", "Financial Services"],
+		"category": [
+			"Banking",
+			"Financial Services"
+		],
 		"Hint": ""
 	},
 	{
 		"title": "Chapa ( Gradient )",
 		"filename": "chapa_gradient",
 		"url": "https://chapa.co/",
-		"category": ["Banking", "Financial Services"],
+		"category": [
+			"Banking",
+			"Financial Services"
+		],
 		"Hint": ""
 	},
 	{
@@ -387,13 +395,6 @@
 		"Hint": ""
 	},
 	{
-		"title": "Kachamale Technologies",
-		"filename": "kachamale_technologies",
-		"url": "https://kachamale.com/",
-		"category": ["Software", "ICT"],
-		"Hint": ""
-	},
-	{
 		"title": "MICE",
 		"filename": "mice",
 		"url": "https://mot.gov.et/mice-ethiopia/",
@@ -481,6 +482,9 @@
 		"title": "iceaddis",
 		"filename": "iceaddis",
 		"url": "https://www.iceaddis.com",
-		"category": ["Incubator", "Coworking Space"]
+		"category": [
+			"Incubator", "Coworking Space"
+		]
 	}
+
 ]
