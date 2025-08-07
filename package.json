@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Chapa-Et/ethiopianlogos#readme",
   "devDependencies": {
-    "eslint": "^6.1.0",
+    "eslint": "^9.32.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-import": "^2.18.2",
