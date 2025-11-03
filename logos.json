@@ -485,6 +485,13 @@
 		"category": [
 			"Incubator", "Coworking Space"
 		]
+	},
+		{
+		"title": "Mena Inc",
+		"filename": "mena_inc",
+		"url": "",
+		"category": [
+			"Publishing", "Advertising"
+		]
 	}
-
 ]
