@@ -485,6 +485,21 @@
 		"category": [
 			"Incubator", "Coworking Space"
 		]
+	},
+	{
+		"title": "Debre Berhan University",
+		"filename": "debre_berhan_university",
+		"url": "https://www.dbu.edu.et/",
+		"category": ["Education"],
+		"Hint": ""
+	},
+	{
+		"title": "selam Bus Line Share Company",
+		"filename": "selam_bus_line_share_company",
+		"url": "https://selambus.wordpress.com/",
+		"category": ["Transportation"],
+		"Hint": ""
 	}
+
 
 ]
