@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Feres logo</title>
+  <desc id="desc">Green background with a circular map pin containing a horse silhouette.</desc>
+  <rect width="640" height="640" fill="#1FA33B"/>
+
+  <defs>
+    <clipPath id="pinCircle">
+      <circle cx="320" cy="256" r="140"/>
+    </clipPath>
+  </defs>
+
+  <g>
+    <circle cx="320" cy="256" r="148" fill="#FFFFFF"/>
+    <circle cx="320" cy="256" r="140" fill="#FFFFFF" stroke="#1FA33B" stroke-width="8"/>
+
+    <g clip-path="url(#pinCircle)">
+      <path d="M180 116H460V396H180Z" fill="#FFFFFF"/>
+      <path d="M170 116H360L220 396H170Z" fill="#D7D7D7"/>
+      <path d="M360 116H460V396H220Z" fill="#FFFFFF"/>
+    </g>
+
+    <path d="M263 346
+             C262 322 270 299 286 283
+             C296 272 309 265 321 258
+             C329 254 339 244 345 234
+             C351 224 354 213 353 203
+             C367 209 378 220 385 233
+             C391 245 392 258 387 270
+             C382 282 372 291 362 297
+             C355 301 349 309 347 319
+             C345 330 347 339 352 349
+             C338 353 322 353 307 349
+             C295 346 283 346 263 346Z"
+          fill="#1FA33B"/>
+
+    <path d="M350 214
+             C344 205 335 199 324 197
+             C312 195 299 198 290 205
+             C283 211 278 219 274 228
+             C271 236 270 245 271 253
+             C273 264 280 273 289 280
+             C300 289 312 295 322 304
+             C328 309 333 314 336 320
+             C338 314 343 307 349 301
+             C360 290 370 282 377 272
+             C383 262 385 251 383 240
+             C381 231 375 223 367 218
+             C361 215 356 214 350 214Z"
+          fill="#1FA33B"/>
+
+    <path d="M289 228
+             C284 223 280 222 276 222
+             C279 216 284 210 291 206
+             C297 203 304 201 312 201
+             C305 206 299 212 295 219
+             C293 223 291 226 289 228Z"
+          fill="#1FA33B"/>
+
+    <path d="M227 353
+             L320 548
+             L413 353
+             Z"
+          fill="#FFFFFF"/>
+
+    <path d="M173 122
+             C185 111 198 102 214 95
+             C228 90 243 88 259 88
+             C273 88 286 90 298 94
+             C280 103 266 115 253 130
+             C240 145 232 162 229 179
+             C226 196 228 213 235 230
+             C221 220 210 207 202 192
+             C194 176 189 158 189 141
+             C189 132 190 126 173 122Z"
+          fill="#D7D7D7" opacity="0.95"/>
+  </g>
+</svg>
