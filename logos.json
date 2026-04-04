@@ -142,6 +142,13 @@
 		"Hint": "Vector Logo not available"
 	},
 	{
+  "title": "Feres",
+  "filename": "feres",
+  "url": "https://feres.co/",
+  "category": ["Taxi Hailing"],
+  "Hint": ""
+},
+	{
 		"title": "Flintstone Homes",
 		"filename": "flintstone_homes",
 		"url": "https://www.flintstonehomes.com/",
